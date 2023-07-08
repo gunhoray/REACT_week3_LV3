@@ -18,8 +18,8 @@ export const ButtonspageName = styled.h1`
 export const BtnLayout = styled.div`
   display: flex;
   justify-content: center;
-  gap: 100px;
-  margin-top: 200px;
+  gap: 80px;
+  margin-top: 180px;
 `;
 
 export const ButtonComponent = styled.button`
@@ -32,6 +32,7 @@ export const ButtonComponent = styled.button`
   border-radius: ${(props) => props.borderRadius};
   border: ${(props) => props.border};
   cursor: pointer;
+  margin-left: ${(props) => props.marginLeft};
 
   &:active {
     background-color: #fff;
