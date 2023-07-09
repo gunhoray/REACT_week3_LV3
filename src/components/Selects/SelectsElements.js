@@ -29,6 +29,7 @@ export const SelectBox = styled.div`
   align-items: center;
   display: flex;
   width: 350px;
+  height: 30px;
   border: 2px solid #fc007a;
   padding: 20px 50px;
   border-radius: 8px;
