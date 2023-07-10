@@ -1,7 +1,8 @@
-# [React LV3 Assignment](https://mytodolist-lv-2.vercel.app/) 
-##### by gunhoray & makepin2r using Javascript, React, Html, css
-### by makepin2r
-  * Refactoring whole homepage with redux
+# [React LV3 Assignment]([https://mytodolist-lv-2.vercel.app/](https://react-week3-lv3.vercel.app/)) 
+##### by gunhoray & SAHA-YJB using Javascript, React, Html, css
+
+### by SAHA-YJB
+  * Building Buttons, inputs, 
   * Organized and constructed Styled-components
   * Refactoring existed code for better efficiency
 ### by gunhoray
