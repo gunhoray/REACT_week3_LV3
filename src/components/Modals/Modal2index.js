@@ -1,3 +1,5 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 이건호
+
 import React from 'react'
 import { Modal2Background, Modal2Container, Modal2Contents, Container, Btn1, Btn2 } from './ModalsElements'
 
@@ -19,3 +21,4 @@ const Modal2index = ({setShowModal2}) => {
 }
 
 export default Modal2index;
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 이건호

@@ -1,3 +1,6 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>NavigationBar by 이건호
+// Navigation bar를 구현
+
 import React,{useEffect, useState} from 'react'
 import {Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll'
@@ -52,3 +55,5 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<NavigationBar by 이건호

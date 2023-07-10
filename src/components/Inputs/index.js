@@ -1,7 +1,10 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Inputs and add button by 육정백
+
 import React, { useRef, useState } from "react";
 import {
-  InputspageName,
-  Inputspagecon,
+  InputResultContainer,
+  InputResults,
+  InputsPage,
   InputStage,
   InputContainer,
 } from "./InputsElements";
@@ -12,6 +15,8 @@ const Inputs = () => {
   const [price, setPrice] = useState(null);
   const nameRef = useRef();
   const priceRef = useRef();
+
+  const [records, setRecords] = useState([]);
 
   const onNameChange = (e) => {
     setAuthor(e.target.value);
@@ -39,10 +44,18 @@ const Inputs = () => {
     alert(
       `작성자는 ${author}님, 가격은 ${price}입니다. 밑의 화면에서 출력된 정보를 보실 수 있습니다.`
     );
+    const newRecord={
+      author,
+      price,
+    }
+    setRecords([...records, newRecord]);
+    setAuthor("");
+    setPrice("");
+    nameRef.current.focus();
   };
+
   return (
-    <Inputspagecon id="inputs">
-      <InputspageName>Inputs</InputspageName>
+    <InputsPage id="inputs">
       <InputContainer>
         <form onSubmit={onBtnPrint}>
           <InputStage
@@ -59,9 +72,9 @@ const Inputs = () => {
           />
           <ButtonComponent
             backgroundColor="#29140F"
-            width="180px"
-            height="50px"
-            fontSize="20px"
+            width="100px"
+            height="35px"
+            fontSize="15px"
             fontWeight="700"
             color="#fc007a"
             borderRadius="10px"
@@ -73,8 +86,21 @@ const Inputs = () => {
           </ButtonComponent>
         </form>
       </InputContainer>
-    </Inputspagecon>
+  {/* >>>>>>>>>>>>>>>>>>>>>>Input의 result를 rendering 구현 by 이건호 */}
+      <InputResultContainer>
+      <div>
+      {records.map((record, index) => (
+          <InputResults key={index}>
+            {record.author} : {record.price}
+          </InputResults>
+        ))}
+      </div>
+      </InputResultContainer>
+  {/* <<<<<<<<<<<<<<<<<<<<<Input의 result를 rendering 구현 by 이건호 */}
+    </InputsPage>
   );
 };
 
 export default Inputs;
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Inputs and add button by 육정백

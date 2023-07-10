@@ -1,11 +1,12 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>NavigationBar by 이건호
 import styled from 'styled-components'
 import {Link as LinkRouter} from 'react-router-dom'
 import {Link as LinkScroll} from 'react-scroll'
 
 export const Nav = styled.nav`
 background: ${({scrollNav}) => (scrollNav ? '#1f2123' : '#fc007a')};
-height: 80px;
-margin-top: -80px;
+height: 60px;
+margin-top: -60px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -22,7 +23,7 @@ z-index: 10;
 export const NavbarContainer = styled.div`
 display: flex;
 justify-content: space-between;
-height: 80px;
+height: 60px;
 z-index: 1;
 width: 100%;
 padding: 0 24px;
@@ -54,7 +55,7 @@ margin-right: -22px;
 `
 
 export const NavItem = styled.li`
-height:80px;
+height:60px;
 `
 
 export const NavLinks = styled(LinkScroll)`
@@ -101,3 +102,4 @@ text-decoration: none;
     color: #010606;
 }
 `
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<NavigationBar by 이건호

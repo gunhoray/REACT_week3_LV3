@@ -1,3 +1,5 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Buttons by 육정백
+
 import { styled } from "styled-components";
 
 export const Buttonspage = styled.div`
@@ -7,8 +9,15 @@ export const Buttonspage = styled.div`
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
+  padding-top: 230px;
   justify-content: center;
 `;
+
+export const ButtonsContainer =styled.div`
+justify-content: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+`
 
 export const ButtonspageName = styled.h1`
   text-align: center;
@@ -16,10 +25,11 @@ export const ButtonspageName = styled.h1`
 `;
 
 export const BtnLayout = styled.div`
+  margin: 20px;
   display: flex;
   justify-content: center;
   gap: 80px;
-  margin-top: 180px;
+  
 `;
 
 export const ButtonComponent = styled.button`
@@ -39,3 +49,4 @@ export const ButtonComponent = styled.button`
   }
 `;
 
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Buttons by 육정백

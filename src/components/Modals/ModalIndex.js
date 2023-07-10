@@ -1,3 +1,5 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 이건호
+
 import React, {useCallback, useEffect, useRef} from 'react'
 import {  ModalWraper, Background, ModalContent, CloseModalButton  } from './ModalsElements'
 
@@ -40,3 +42,5 @@ const ModalIndex = ({showModal, setShowModal}) => {
 }
 // Background 에서 고정된 화면에서의 시행되는 CSS요소 때문에 충돌이 일어 났음 
 export default ModalIndex
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 이건호

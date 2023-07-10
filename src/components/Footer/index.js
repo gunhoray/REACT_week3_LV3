@@ -1,3 +1,6 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Footer by 이건호
+// 전체 페이지의 footer를 구현
+
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { FooterWhole, FooterContainer, FooterLinks, FooterMenu,FooterItem, FooterBtnLink, FooterBtn } from './FooterElements';
@@ -51,3 +54,5 @@ const Footer = () => {
 }
 
 export default Footer;
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Footer by 이건호

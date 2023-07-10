@@ -1,3 +1,6 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Footer by 이건호
+
+
 import { styled } from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
@@ -89,3 +92,5 @@ text-decoration: none;
     color: #010606;
 }
 `
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Footer by 이건호

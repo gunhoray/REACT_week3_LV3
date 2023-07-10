@@ -1,24 +1,29 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>FacePage by 이건호
+
 import { styled } from "styled-components";
 
 export const Facepagecon = styled.div`
 background-color: #1f2123;
-height: 860px;
+height: 600px;
 width:100%;
 margin-right: auto;
 margin-left: auto;
-padding: 0 24px;
+padding: 24px;
+padding-top: 80px;
 justify-content: center;
 `
 
 export const Facepageicon = styled.img`
-  margin-top: 80px;
-  max-width: 900px;
-  width: 100%;
+  width: 50%;
+  margin-top: 70px;
 `
 
 export const ImgWrap = styled.div`
-  height: 100%;
+ margin-top: 40px;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
 `
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FacePage by 이건호

@@ -1,6 +1,9 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>Buttons by 육정백
+
 import React from "react";
 import AppleIcon from "@mui/icons-material/Apple";
 import {
+  ButtonsContainer,
   Buttonspage,
   ButtonComponent,
   BtnLayout,
@@ -17,6 +20,7 @@ const Buttons = () => {
   };
   return (
     <Buttonspage id="buttons">
+      <ButtonsContainer>
       <BtnLayout>
         <ButtonComponent
           backgroundColor="black"
@@ -96,8 +100,10 @@ const Buttons = () => {
           SmallBtn
         </ButtonComponent>
       </BtnLayout>
+      </ButtonsContainer>
     </Buttonspage>
   );
 };
 
 export default Buttons;
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Buttons by 육정백

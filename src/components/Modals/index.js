@@ -1,8 +1,7 @@
-
 import React, { useState } from "react";
 import {
-  ModalspageName,
-  Modalscon,
+  LGHModalModalContainer,
+  ModalPage,
   ModalWrapper,
   YjbModal1,
   YjbModalContainer,
@@ -10,12 +9,13 @@ import {
   InModalLayout2,
   Modal1Content,
 } from "./ModalsElements";
-import { ModalspageName, Modalscon, ModalContainer, ModalButton } from './ModalsElements';
+import { ModalContainer, ModalButton } from './ModalsElements';
 import ModalIndex from './ModalIndex';
 import Modal2index from './Modal2index';
 import { ButtonComponent } from "../Buttons/ButtonsElements";
 
 const Modals = () => {
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 육정백
   const [isModalVisible1, setIsModalVisible1] = useState(false);
   const [isModalVisible2, setIsModalVisible2] = useState(false);
 
@@ -37,8 +37,9 @@ const Modals = () => {
     closeModal2();
   };
 
-//---------------------------------
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 육정백
 
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 이건호
   const [showModal, setShowModal] = useState(false)
 
   const openModal = () => {
@@ -46,24 +47,23 @@ const Modals = () => {
   }
   
   const [showModal2, setShowModal2] = useState(false)
-
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 이건호
 
   return (
     <>
-    <Modalscon id='modals'>
-    
-    <ModalContainer>
-
+    <ModalPage id='modals'>
+    <ModalContainer> 
+{/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 이건호 */}
+    <LGHModalModalContainer>
     <ModalButton onClick={()=>{setShowModal2(true);}}>A Modal2 for U</ModalButton>
     {showModal2 && <Modal2index setShowModal2={setShowModal2}/>}
   
-
     <ModalButton onClick={openModal}>A Modal for U</ModalButton>
     <ModalIndex showModal={showModal} setShowModal={setShowModal}/>
-
-    </ModalContainer>
-    </Modalscon>
-
+    </LGHModalModalContainer>
+  {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 이건호 */}
+ 
+  {/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 육정백 */}
     <YjbModalContainer>
         <ButtonComponent
           backgroundColor="#29140F"
@@ -150,8 +150,9 @@ const Modals = () => {
           </div>
         )}
       </YjbModalContainer>
-
-
+{/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 육정백 */}
+     </ModalContainer>
+    </ModalPage>
     </>
   )
 }
