@@ -1,7 +1,6 @@
 import React from "react";
 import AppleIcon from "@mui/icons-material/Apple";
 import {
-  ButtonspageName,
   Buttonspage,
   ButtonComponent,
   BtnLayout,
@@ -18,7 +17,6 @@ const Buttons = () => {
   };
   return (
     <Buttonspage id="buttons">
-      <ButtonspageName>Buttonspage</ButtonspageName>
       <BtnLayout>
         <ButtonComponent
           backgroundColor="black"

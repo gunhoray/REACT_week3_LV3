@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import {
   ModalspageName,
@@ -9,6 +10,9 @@ import {
   InModalLayout2,
   Modal1Content,
 } from "./ModalsElements";
+import { ModalspageName, Modalscon, ModalContainer, ModalButton } from './ModalsElements';
+import ModalIndex from './ModalIndex';
+import Modal2index from './Modal2index';
 import { ButtonComponent } from "../Buttons/ButtonsElements";
 
 const Modals = () => {
@@ -32,10 +36,35 @@ const Modals = () => {
   const onBackDropCancel = () => {
     closeModal2();
   };
+
+//---------------------------------
+
+  const [showModal, setShowModal] = useState(false)
+
+  const openModal = () => {
+    setShowModal(prev => !prev);
+  }
+  
+  const [showModal2, setShowModal2] = useState(false)
+
+
   return (
-    <Modalscon id="modals">
-      <ModalspageName>Modals</ModalspageName>
-      <YjbModalContainer>
+    <>
+    <Modalscon id='modals'>
+    
+    <ModalContainer>
+
+    <ModalButton onClick={()=>{setShowModal2(true);}}>A Modal2 for U</ModalButton>
+    {showModal2 && <Modal2index setShowModal2={setShowModal2}/>}
+  
+
+    <ModalButton onClick={openModal}>A Modal for U</ModalButton>
+    <ModalIndex showModal={showModal} setShowModal={setShowModal}/>
+
+    </ModalContainer>
+    </Modalscon>
+
+    <YjbModalContainer>
         <ButtonComponent
           backgroundColor="#29140F"
           width="180px"
@@ -121,8 +150,11 @@ const Modals = () => {
           </div>
         )}
       </YjbModalContainer>
-    </Modalscon>
-  );
-};
+
+
+    </>
+  )
+}
+
 
 export default Modals;

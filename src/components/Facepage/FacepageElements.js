@@ -10,8 +10,15 @@ padding: 0 24px;
 justify-content: center;
 `
 
-export const FacepageName = styled.h1`
-text-align: center;
-background-color: #fff;
-margin-top: 80px;
+export const Facepageicon = styled.img`
+  margin-top: 80px;
+  max-width: 900px;
+  width: 100%;
+`
+
+export const ImgWrap = styled.div`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `

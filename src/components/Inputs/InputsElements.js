@@ -11,6 +11,7 @@ export const Inputspagecon = styled.div`
   justify-content: center;
 `;
 
+
 export const InputspageName = styled.h1`
   text-align: center;
   background-color: antiquewhite;
