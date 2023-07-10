@@ -1,4 +1,4 @@
-# [React LV3 Assignment]([https://mytodolist-lv-2.vercel.app/](https://react-week3-lv3.vercel.app/)) 
+# [React LV3 Assignment](https://react-week3-lv3.vercel.app/) 
 ##### by gunhoray & SAHA-YJB using Javascript, React, Html, css
 
 ### by SAHA-YJB
