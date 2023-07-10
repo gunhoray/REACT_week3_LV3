@@ -2,11 +2,8 @@ import React,{useEffect, useState} from 'react'
 import {Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll'
 
-
-
-
-
 const Navbar = () => {
+
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav =()=>{
@@ -24,8 +21,6 @@ const Navbar = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
-
-
 
   return (
     <>

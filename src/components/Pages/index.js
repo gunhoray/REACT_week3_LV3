@@ -7,9 +7,6 @@ import Modals from '../Modals';
 import Selects from '../Selects';
 import Footer from '../Footer';
 
-
-
-
 function Home() {
 
   return (
@@ -22,7 +19,6 @@ function Home() {
     <Selects />
     <Footer />
     </>
-
   )
 }
 

@@ -10,7 +10,6 @@ export const Selectcon = styled.div`
 background-color: #1f2123;
 height: 860px;
 width:100%;
-max-width: 1100px;
 margin-right: auto;
 margin-left: auto;
 padding: 0 24px;

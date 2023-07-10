@@ -1,10 +1,13 @@
 import React from 'react'
-import { FacepageName, Facepagecon } from './FacepageElements';
+import { Facepagecon, Facepageicon, ImgWrap } from './FacepageElements';
+import img from '../../components/Facepage/bumforlv3.svg'
 
 const Facepage = () => {
   return (
     <Facepagecon>
-    <FacepageName>Facepage</FacepageName>
+      <ImgWrap>
+      <Facepageicon src={img} alt='bum' ></Facepageicon>
+      </ImgWrap>
     </Facepagecon>
   )
 }

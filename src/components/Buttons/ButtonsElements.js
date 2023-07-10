@@ -8,11 +8,9 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
 justify-content: center;
-
 `
 
 export const ButtonspageName = styled.h1`
 text-align: center;
 background-color: aliceblue;
-
 `
