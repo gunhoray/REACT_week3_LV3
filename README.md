@@ -1,3 +1,6 @@
+![Screenshot 2023-07-11 at 1 33 14 PM](https://github.com/gunhoray/REACT_week3_LV3/assets/88648468/3c524fc9-c6da-4d81-a2e2-4e089c1ca915)
+
+
 # [React LV3 Assignment](https://react-week3-lv3.vercel.app/) 
 ##### by gunhoray & SAHA-YJB using Javascript, React, Html, css
 
