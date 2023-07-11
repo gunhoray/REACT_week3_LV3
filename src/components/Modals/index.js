@@ -11,7 +11,7 @@ import {
   Modal1Content,
 } from "./ModalsElements";
 import { ModalContainer } from './ModalsElements';
-import ModalIndex from './Modalindex';
+import ModalIndex from './ModalIndex';
 import Modal2index from './Modal2index';
 import { ButtonComponent } from "../Buttons/ButtonsElements";
 
