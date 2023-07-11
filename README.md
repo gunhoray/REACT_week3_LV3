@@ -57,7 +57,7 @@
   * Selects : index.js & SelectsElements.js
     - containging selects, one made without 'react-select' library, and one with it.
     
-*App.js
+*App.js : containing the main domain path "/" by react-router-dom
 
 ## Difficulties encountered during this project
 * To link each pages onto Navigation bar and Footer, had to mix use 'react-router-dom', and 'react-scroll'. ⭐️
