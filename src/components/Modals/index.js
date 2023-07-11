@@ -11,7 +11,7 @@ import {
   Modal1Content,
 } from "./ModalsElements";
 import { ModalContainer } from './ModalsElements';
-import Modalindex from './Modalindex';
+import ModalIndex from './Modalindex';
 import Modal2index from './Modal2index';
 import { ButtonComponent } from "../Buttons/ButtonsElements";
 
@@ -63,7 +63,7 @@ const Modals = () => {
    
 
     <OpenModalButton onClick={openModal}>A Modal for U</OpenModalButton>
-    <Modalindex showModal={showModal} setShowModal={setShowModal}/>
+    <ModalIndex showModal={showModal} setShowModal={setShowModal}/>
   
     </LGHModalModalContainer>
   {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 이건호 */}
