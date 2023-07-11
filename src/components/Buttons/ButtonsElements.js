@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 
 export const Buttonspage = styled.div`
   background-color: #1f2123;
-  height: 860px;
+  height: 800px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;

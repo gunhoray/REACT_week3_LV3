@@ -3,7 +3,7 @@ import {MdClose} from 'react-icons/md'
 
 export const ModalPage = styled.div`
   background-color: #1f2123;
-  height: 600px;
+  height: 800px;
   margin-right: auto;
   margin-left: auto;
   padding: 24px;
@@ -18,8 +18,8 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 `
-
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 이건호
+// index.js
 export const LGHModalModalContainer = styled.div`
   padding: 20px;
   padding-top: 70px;
@@ -31,8 +31,7 @@ export const LGHModalModalContainer = styled.div`
   align-items: center;
   gap: 50px;
 `
-
-export const ModalButton = styled.button`
+export const OpenModalButton = styled.button`
 min-width: 100px;
 padding: 16px 32px;
 border-radius: 4px;
@@ -46,6 +45,28 @@ cursor: pointer;
     background: #fc007a;
     color: #fff;
 }
+`
+// Modal2index.js & Modalindex
+export const LghModalWrapper = styled.div`
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+`
+
+export const LghModal = styled.div`
+position: relative;
+z-index: 2;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
 `
 
 export const ModalContent = styled.div`
@@ -76,41 +97,26 @@ button {
 `
 
 export const ModalWraper = styled.div`
-width: 800px;
-height: 500px;
-box-shadow: 0 5px 16px rgba(0,0,0,0.2);
+width: 500px;
+height: 300px;
 background: #fff;
 color: #000;
 display: grid;
-position: relative;
-z-index: 10;
 border-radius: 10px;
-`
-
-export const Background = styled.div`
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0, 0, 0, 0.8);
-display: flex;
-justify-content: center;
-align-items: center;
+position: relative; 
 `
 
 export const CloseModalButton = styled(MdClose)`
-cursor: pointer;
-position: absolute;
-top:20px;
-right: 20px;
-width: 32px;
-height: 32px;
-padding:0;
-z-index:10;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    z-index: 10;
 `
 
-// MODAL2  Modal2Background  Modal2Container Modal2Contents
+// -----------Modal2index
 export const Modal2Background = styled.div`
 position: fixed;
 top: 0;
@@ -147,11 +153,11 @@ p {
     margin-bottom: 1rem;
 }
 `
-export const Container = styled.div`
+export const Modal2ButtonsContainer = styled.div`
 display: flex;
 `
 
-export const Btn1 = styled.button`
+export const Modal2Btn1 = styled.button`
     border-radius: 20px;
     margin: 10px;
     width: 100px;
@@ -161,7 +167,7 @@ export const Btn1 = styled.button`
     border: none;
 `
 
-export const Btn2 = styled.button`
+export const Modal2Btn2 = styled.button`
     border-radius: 20px;
     margin: 10px;
     width: 100px;

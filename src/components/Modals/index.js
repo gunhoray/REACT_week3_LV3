@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {
+  OpenModalButton,
   LGHModalModalContainer,
   ModalPage,
   ModalWrapper,
@@ -9,8 +10,8 @@ import {
   InModalLayout2,
   Modal1Content,
 } from "./ModalsElements";
-import { ModalContainer, ModalButton } from './ModalsElements';
-import ModalIndex from './ModalIndex';
+import { ModalContainer } from './ModalsElements';
+import Modalindex from './Modalindex';
 import Modal2index from './Modal2index';
 import { ButtonComponent } from "../Buttons/ButtonsElements";
 
@@ -47,6 +48,7 @@ const Modals = () => {
   }
   
   const [showModal2, setShowModal2] = useState(false)
+
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 이건호
 
   return (
@@ -55,11 +57,14 @@ const Modals = () => {
     <ModalContainer> 
 {/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modals by 이건호 */}
     <LGHModalModalContainer>
-    <ModalButton onClick={()=>{setShowModal2(true);}}>A Modal2 for U</ModalButton>
-    {showModal2 && <Modal2index setShowModal2={setShowModal2}/>}
   
-    <ModalButton onClick={openModal}>A Modal for U</ModalButton>
-    <ModalIndex showModal={showModal} setShowModal={setShowModal}/>
+    <OpenModalButton onClick={()=>{setShowModal2(true);}}>A Modal2 for U</OpenModalButton>
+    {showModal2 && <Modal2index setShowModal2={setShowModal2}/>}
+   
+
+    <OpenModalButton onClick={openModal}>A Modal for U</OpenModalButton>
+    <Modalindex showModal={showModal} setShowModal={setShowModal}/>
+  
     </LGHModalModalContainer>
   {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Modals by 이건호 */}
  

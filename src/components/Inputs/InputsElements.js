@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 
 export const InputsPage = styled.div`
   background-color: #1f2123;
-  height: 860px;
+  height: 800px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;

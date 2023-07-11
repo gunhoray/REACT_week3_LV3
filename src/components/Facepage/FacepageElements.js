@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 
 export const Facepagecon = styled.div`
 background-color: #1f2123;
-height: 600px;
+height: 800px;
 width:100%;
 margin-right: auto;
 margin-left: auto;
@@ -14,8 +14,8 @@ justify-content: center;
 `
 
 export const Facepageicon = styled.img`
-  width: 50%;
-  margin-top: 70px;
+  width: 70%;
+  margin-top: 50px;
 `
 
 export const ImgWrap = styled.div`

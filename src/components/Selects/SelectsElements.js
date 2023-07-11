@@ -3,7 +3,7 @@ import Select from "react-select";
 
 export const SelectPage = styled.div`
   background-color: #1f2123;
-  height: 600px;
+  height: 800px;
   margin-right: auto;
   margin-left: auto;
   padding: 24px;
@@ -29,7 +29,7 @@ export const SelectContainer = styled.div`
 
 export const SelectElements = styled.div`
   position: absolute;
-    top: 28%;
+    top: 21%;
 `
 
 export const SelectBox = styled.div`
