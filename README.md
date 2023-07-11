@@ -66,3 +66,4 @@
 * Understanding CSS 'postion' and 'z-index' attribute to solve parent compoenent interfering issues (on Modals, and Selects).⭐️
 * Tried to use createPortal to solve interfering issue, but failed. I need reaserch on it.⭐️
 * Naming the variables, files, folders. As those numbers increase and more developers on it, we need more concised and planned naming. ⭐️
+* When use CSS, we need to be careful with width and height sizes and percentage.⭐️
